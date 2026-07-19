@@ -1,4 +1,6 @@
 # Task Manager
+Trigger
+
 
 A full-stack task manager: React frontend, Flask (Python) API, Azure SQL
 Database, deployed to Azure App Service via a GitHub Actions pipeline,
