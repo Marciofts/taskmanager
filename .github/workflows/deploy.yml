@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 24
           cache: npm
-          cache-dependency-paths: ./frontend/package-lock.json
+          cache-dependency-path: taskmanager/frontend/package-lock.json
 
 
       - name: Install frontend dependencies
