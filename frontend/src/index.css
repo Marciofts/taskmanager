@@ -1,0 +1,43 @@
+:root {
+  --bg: #14151a;
+  --surface: #1c1e26;
+  --surface-raised: #22242e;
+  --border: #2a2d38;
+  --text: #eef0f4;
+  --text-muted: #8b8fa3;
+  --accent: #c9973d;
+  --accent-soft: rgba(201, 151, 61, 0.15);
+  --danger: #e2574c;
+  --priority-high: #e2574c;
+  --priority-medium: #c9973d;
+  --priority-low: #4fb3a9;
+  --status-completed: #4fb3a9;
+  --status-pending: #8b8fa3;
+  --radius: 10px;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+button {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
